@@ -1,6 +1,6 @@
 # Cybersecurity-Portfolio
 
-**PJPT Certified | Aspiring Penetration Tester**
+**PJPT Certified | Aspiring Penetration Tester**  
 Actively progressing through Hack The Box, TryHackMe and Vulnhub to develop hands-on experience in offensive security skills in network penetration testing. These include, Active Directory Exploitation, Vulnerability Assessment (For now).
 
 ## Hack The Box Progress
