@@ -12,7 +12,7 @@ Actively progressing through Hack The Box, TryHackMe and Vulnhub to develop hand
 ## Content
 [HTB/Starting-Point](./HTB/Starting-Point): Beginner Guided Machine Write ups  
 [HTB/Main](./HTB/Main): Write ups for completed machines sorted by difficulty (Easy -> Medium -> Hard -> Insane)  
-[Getting Started](./Getting Started): New to cybersecurity? Here is an guide to getting started!
+[Getting Started](./Getting%20Started): New to cybersecurity? Here is an guide to getting started!
 
 
 ## Tools
