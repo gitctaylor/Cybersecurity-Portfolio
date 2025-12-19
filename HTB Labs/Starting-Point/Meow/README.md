@@ -46,7 +46,7 @@ Quick note about the tasks for this machine. These are very foundational questio
   
   **ping**  
 
-  Use ping to check connections are set up properly. It sends packets to the IP Address you specific and receives them back to confirm connections.  
+  Use ping to check connections are set up properly. It sends packets to the IP Address you specify and receives them back to confirm connections.  
   `ping <IP Address>`  
   Example:  
 ![ping-example-ezgif com-crop](https://github.com/user-attachments/assets/98668dff-ae37-43e2-b585-8315ca676d00)
