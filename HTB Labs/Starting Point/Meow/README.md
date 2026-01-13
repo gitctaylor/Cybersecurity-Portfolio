@@ -5,7 +5,7 @@ This machine is very basic and asks fundmental questions about virtualisation, c
 Quick note about the tasks for this machine. These are very foundational questions, most of these you should be able to answer. If you are new to Cybersecurity, Task 5, 6 and 7 you may need some help with.
 
 ## Walkthrough  
-##### Task 1 - What does the acronym VM stand for?
+### Task 1 - What does the acronym VM stand for?
 <details>
   <summary>Answer</summary>
   
@@ -15,9 +15,7 @@ Quick note about the tasks for this machine. These are very foundational questio
   
 </details>
 
----
-
-##### Task 2 - What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.  
+### Task 2 - What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.  
 <details>  
   <summary>Answer</summary>
   
@@ -27,9 +25,7 @@ Quick note about the tasks for this machine. These are very foundational questio
   
 </details>
 
----
-
-##### Task 3 - What service do we use to form our VPN connection into HTB labs?
+### Task 3 - What service do we use to form our VPN connection into HTB labs?
 <details>  
   <summary>Answer</summary>
   
@@ -38,9 +34,7 @@ Quick note about the tasks for this machine. These are very foundational questio
   OpenVPN is how you will always connect to the HTB Labs. If you are unsure how to connect, refer to Setting-Up
 </details>
 
----
-
-##### Task 4 - What tool do we use to test our connection to the target with an ICMP echo request?
+### Task 4 - What tool do we use to test our connection to the target with an ICMP echo request?
 <details>  
   <summary> Answer </summary>
   
@@ -54,9 +48,7 @@ Quick note about the tasks for this machine. These are very foundational questio
   
 </details>
 
----
-
-##### Task 5 - What is the name of the most common tool for finding open ports on a target?  
+### Task 5 - What is the name of the most common tool for finding open ports on a target?  
 <details>  
   <summary>Answer</summary>
   
@@ -64,10 +56,8 @@ Quick note about the tasks for this machine. These are very foundational questio
 
   Nmap 'Network Mapper' is very powerful for finding out information with out having anything to go off. It is a Recon tool and can be used as an Enumeration tool as well.
 </details>
-
----
   
-##### Task 6 - What service do we identify on port 23/tcp during our scans?  
+### Task 6 - What service do we identify on port 23/tcp during our scans?  
 <details>  
   <summary>Answer</summary>
 
@@ -79,9 +69,7 @@ Quick note about the tasks for this machine. These are very foundational questio
 So with this, the answer would be: **telnet**
 </details>
 
----
-
-##### Task 7 - What username is able to log into the target over telnet with a blank password?
+### Task 7 - What username is able to log into the target over telnet with a blank password?
 <details>  
   <summary>Answer</summary>
   
@@ -90,9 +78,7 @@ So with this, the answer would be: **telnet**
   The hint for this task gives it away, but if you haven't used Linux at all this one might stump you. Think of Root as God, Root can do anything and it will allow you to do anything so long as you ask kindly with "sudo".
 </details>
 
----
-
-## Grabbing the Flag  
+### Grabbing the Flag  
   
 To successfully pwn Meow, you will need to use the answers from the tasks as clues to point you in the right direction for the flag. You can do this!  
 <details>
