@@ -69,7 +69,8 @@ What service do we identify on port 23/tcp during our scans?
 
 <details>  
   <summary>Answer</summary>
-  In order to find the answer, we must use nmap. Open terminal and input `nmap <Target IP>`. For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
+  
+  In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
   
 <img width="570" height="185" alt="image" src="https://github.com/user-attachments/assets/05339c18-739f-4f1e-9a19-5fe01d55cc02" />
   
