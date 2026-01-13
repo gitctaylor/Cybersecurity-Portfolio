@@ -35,7 +35,7 @@ What service do we use to form our VPN connection into HTB labs?
   <summary>Answer</summary>
   
   **OpenVPN** <br>
-  OpenVPN is how you will always connect to the HTB Labs. If you are unsure how to connect, refer to Setting-Up
+  OpenVPN is how you will always connect to the HTB Labs. If you are unsure how to connect, refer to Setting-Up.
 
 </details>
 
@@ -70,7 +70,7 @@ What service do we identify on port 23/tcp during our scans?
 <details>  
   <summary>Answer</summary>
   
-In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.24.175, so I would input into terminal `nmap 10.129.24.175`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
+In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>`. For Example, the Meow Machine IP that was given to me was 10.129.24.175, so I would input into terminal `nmap 10.129.24.175`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
   
 <img width="585" height="184" alt="image" src="https://github.com/user-attachments/assets/2118283c-9413-4dbc-aa88-c5f5fd4cdb0a" /> <br>
 So with this, the answer would be: **telnet**
@@ -92,7 +92,7 @@ To successfully pwn Meow, you will need to use the answers from the tasks as clu
 <details>
   <summary>Solution</summary>
 
-We know from using nmap that port 23/tcp had a telnet service open. This is key here to getting onto the machine and getting the flag. We can use the `telnet` tool in order to proceed here, which allows us interaction with another host (Machine) via the TELNET protocol. We also know based on Task 7, that we can access the machine via telnet with the user "root". If we were going to use telnet we need to do two things, 1 - give it the target IP and 2 - specify which user we are logging in with. When we go to execute this command it should look like this: `telnet <Target IP> -l <user>`. -l (L) is used to specify the user. So in this case, we execute `telnet 10.129.1.17 -l root`. This takes a moment to connect but should return with:  
+We know from using nmap that port 23 had a telnet service open. This is key here to getting onto the machine and getting the flag. We can use the `telnet` tool in order to proceed here, which allows us interaction with another host (Machine) via the TELNET protocol. We also know based on Task 7, that we can access the machine via telnet with the user "root". If we were going to use telnet we need to do two things, 1 - give it the target IP and 2 - specify which user we are logging in with. When we go to execute this command it should look like this: `telnet <Target IP> -l <user>`. -l (L) is used to specify the user. So in this case, we execute `telnet 10.129.1.17 -l root`. This takes a moment to connect but should return with:  
 
 <img width="608" height="668" alt="image" src="https://github.com/user-attachments/assets/99cb0499-dcd5-4c27-ae4a-d5732852591c" /> <br>
 Awesome! We are now able to interact with this machine. We are trying to find the flag file, which contains the string of text needed to pwn Meow. From here, we use the `ls` (LS) command to list what is in our current directory.  
