@@ -3,17 +3,21 @@
 **PJPT Certified | Aspiring Penetration Tester**  
 Actively progressing through Hack The Box, TryHackMe and Vulnhub to develop hands-on experience in offensive security skills in network penetration testing. These include, Active Directory Exploitation, Vulnerability Assessment (For now).
 
-## Hack The Box Progress
-**Currently Globally Ranked**: 940  
-**Machines Retired**: 2   
-<img width="292" height="511" alt="image" src="https://github.com/user-attachments/assets/65b7bc3d-79be-4ccf-bc83-78496d30bca6" />  
-*Screenshot Taken on the 15/12/2025* 
-
 ## Content
 [HTB Labs/Starting Point](<./HTB Labs/Starting Point>): Beginner Guided Machine Write ups  
 [HTB Labs/Main](<./HTB Labs/Main>): Write ups for completed machines sorted by difficulty (Easy -> Medium -> Hard -> Insane)  
 [Getting Started](./Getting%20Started): New to cybersecurity? Here is an guide to getting started!
 
+| Folder         | Completed | Write Ups |  
+| ---------------|-----------|-----------|    
+| Starting Point | 11/25     | 1/25      |
+| Main           | 0         | 0         |
+
+## Hack The Box Progress
+**Currently Globally Ranked**: 940  
+**Machines Retired**: 2   
+<img width="292" height="511" alt="image" src="https://github.com/user-attachments/assets/65b7bc3d-79be-4ccf-bc83-78496d30bca6" />  
+*Screenshot Taken on the 15/12/2025* 
 
 ## Tools
 - **Enumeration**: Nmap  
