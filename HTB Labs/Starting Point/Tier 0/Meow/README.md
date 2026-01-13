@@ -36,6 +36,7 @@ What service do we use to form our VPN connection into HTB labs?
   
   **OpenVPN** <br>
   OpenVPN is how you will always connect to the HTB Labs. If you are unsure how to connect, refer to Setting-Up
+
 </details>
 
 ### Task 4
@@ -44,14 +45,12 @@ What tool do we use to test our connection to the target with an ICMP echo reque
 <details>  
   <summary> Answer </summary>
   
-  **ping**  
-
+  **ping** <br>
   Use ping to check connections are set up properly. It sends packets to the IP Address you specify and receives them back to confirm connections.  
   `ping <IP Address>`  
-  Example:
+  Example: <br>
   ![ping-example-ezgif com-crop](https://github.com/user-attachments/assets/98668dff-ae37-43e2-b585-8315ca676d00)
 
-  
 </details>
 
 ### Task 5 
@@ -60,36 +59,35 @@ What is the name of the most common tool for finding open ports on a target?
 <details>  
   <summary>Answer</summary>
   
-  **nmap**<br>
+  **nmap** <br>
   Nmap 'Network Mapper' is very powerful for finding out information with out having anything to go off. It is a Recon tool and can be used as an Enumeration tool as well.
+
 </details>
-  
+
 ### Task 6
 What service do we identify on port 23/tcp during our scans?
 
 <details>  
   <summary>Answer</summary>
   
-  In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
+In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
   
-<img width="570" height="185" alt="image" src="https://github.com/user-attachments/assets/05339c18-739f-4f1e-9a19-5fe01d55cc02" />
-  
+<img width="585" height="184" alt="image" src="https://github.com/user-attachments/assets/2118283c-9413-4dbc-aa88-c5f5fd4cdb0a" /> <br>
 So with this, the answer would be: **telnet**
+
 </details>
 
 ### Task 7  
-  
 What username is able to log into the target over telnet with a blank password?
 <details>  
   <summary>Answer</summary>
-  
-  **root**  
 
-  The hint for this task gives it away, but if you haven't used Linux at all this one might stump you. Think of Root as God, Root can do anything and it will allow you to do anything so long as you ask kindly with "sudo".
+**root** <br>
+The hint for this task gives it away, but if you haven't used Linux at all this one might stump you. Think of Root as God, Root can do anything and it will allow you to do anything so long as you ask kindly with "sudo".
+
 </details>
 
 ### Grabbing the Flag  
-  
 To successfully pwn Meow, you will need to use the answers from the tasks as clues to point you in the right direction for the flag. You can do this!  
 <details>
   <summary>Solution</summary>
