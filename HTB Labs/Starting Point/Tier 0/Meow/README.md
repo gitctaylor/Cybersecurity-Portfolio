@@ -70,7 +70,7 @@ What service do we identify on port 23/tcp during our scans?
 <details>  
   <summary>Answer</summary>
   
-In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
+In order to find the answer, we must use nmap. Open terminal and input: `nmap <Target IP>` For Example, the Meow Machine IP that was given to me was 10.129.24.175, so I would input into terminal `nmap 10.129.24.175`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
   
 <img width="585" height="184" alt="image" src="https://github.com/user-attachments/assets/2118283c-9413-4dbc-aa88-c5f5fd4cdb0a" /> <br>
 So with this, the answer would be: **telnet**
