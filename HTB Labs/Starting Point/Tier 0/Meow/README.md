@@ -1,48 +1,46 @@
-# HTB Starting Point - Meow  
+# Meow  
 
-This machine is very basic and asks fundmental questions about virtualisation, connecting to HTB and a specific reconnaissance/enumeration tool. This machine is guided mode only. As always, please attempt this machine yourself before looking at the answers.  
+This machine is very basic and asks fundmental questions about virtualisation, connecting to HTB and a specific reconnaissance/enumeration tool. This machine is 'Guided Mode' only. As always, please attempt this machine yourself before looking at the answers.  
   
 Quick note about the tasks for this machine. These are very foundational questions, most of these you should be able to answer. If you are new to Cybersecurity, Task 5, 6 and 7 you may need some help with.
 
-## Walkthrough  
-### Task 1  
-  
+## Walkthrough
+
+### Task 1
 What does the acronym VM stand for?
+
 <details>
   <summary>Answer</summary>
   
   **Virtual Machine** <br>
-  <br>
-  You should be using a virtual machine every time you perform hacking activites. This way you will be protecting your own machine in case a mistake occurs. <br>
+  You should be using a virtual machine every time you perform hacking activites. This way you will be protecting your own machine in case a mistake occurs.
   
 </details>
 
-### Task 2  
-  
-What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.  
+### Task 2 
+What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
+
 <details>  
   <summary>Answer</summary>
   
-  **terminal**<br>
-  <br>
+  **Terminal** <br>
   This is your new home. Getting familiar with the terminal is essential because you will **ALWAYS** be using the terminal. Command Line is very powerful if you know what you are doing.
   
 </details>
 
-### Task 3  
-  
+### Task 3
 What service do we use to form our VPN connection into HTB labs?
+
 <details>  
   <summary>Answer</summary>
   
-  **openvpn**  
-
+  **OpenVPN** <br>
   OpenVPN is how you will always connect to the HTB Labs. If you are unsure how to connect, refer to Setting-Up
 </details>
 
-### Task 4  
-  
+### Task 4
 What tool do we use to test our connection to the target with an ICMP echo request?
+
 <details>  
   <summary> Answer </summary>
   
@@ -50,33 +48,30 @@ What tool do we use to test our connection to the target with an ICMP echo reque
 
   Use ping to check connections are set up properly. It sends packets to the IP Address you specify and receives them back to confirm connections.  
   `ping <IP Address>`  
-  Example:  
-![ping-example-ezgif com-crop](https://github.com/user-attachments/assets/98668dff-ae37-43e2-b585-8315ca676d00)
+  Example:
+  ![ping-example-ezgif com-crop](https://github.com/user-attachments/assets/98668dff-ae37-43e2-b585-8315ca676d00)
 
   
 </details>
 
-### Task 5  
-  
-What is the name of the most common tool for finding open ports on a target?  
+### Task 5 
+What is the name of the most common tool for finding open ports on a target?
+
 <details>  
   <summary>Answer</summary>
   
-  **nmap**  
-
+  **nmap**<br>
   Nmap 'Network Mapper' is very powerful for finding out information with out having anything to go off. It is a Recon tool and can be used as an Enumeration tool as well.
 </details>
   
-### Task 6  
-  
-What service do we identify on port 23/tcp during our scans?  
+### Task 6
+What service do we identify on port 23/tcp during our scans?
+
 <details>  
   <summary>Answer</summary>
-
-  
   In order to find the answer, we must use nmap. Open terminal and input `nmap <Target IP>`. For Example, the Meow Machine IP that was given to me was 10.129.1.17, so I would input into terminal `nmap 10.129.1.17`. This will start the scan of the Meow Machines ports with default settings. This should return the following  
   
-<img width="570" height="185" alt="image" src="https://github.com/user-attachments/assets/05339c18-739f-4f1e-9a19-5fe01d55cc02" />  
+<img width="570" height="185" alt="image" src="https://github.com/user-attachments/assets/05339c18-739f-4f1e-9a19-5fe01d55cc02" />
   
 So with this, the answer would be: **telnet**
 </details>
