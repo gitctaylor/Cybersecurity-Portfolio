@@ -10,8 +10,8 @@ Actively progressing through Hack The Box, TryHackMe and Vulnhub to develop hand
 *Screenshot Taken on the 15/12/2025* 
 
 ## Content
-[HTB Labs/Starting-Point](./HTB20%Labs/Starting-Point): Beginner Guided Machine Write ups  
-[HTB Labs/Main](./HTB20%Labs/Main): Write ups for completed machines sorted by difficulty (Easy -> Medium -> Hard -> Insane)  
+[HTB Labs/Starting-Point](<./HTB Labs/Starting-Point>): Beginner Guided Machine Write ups  
+[HTB Labs/Main](<./HTB Labs/Main>): Write ups for completed machines sorted by difficulty (Easy -> Medium -> Hard -> Insane)  
 [Getting Started](./Getting%20Started): New to cybersecurity? Here is an guide to getting started!
 
 
