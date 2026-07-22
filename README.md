@@ -26,6 +26,6 @@ Actively progressing through Hack The Box, TryHackMe and Vulnhub to develop hand
 - **Reporting**: Markdown write ups and professional templates
 
 ## Connect with me
-[LinkedIn](https://www.linkedin.com/in/ctaylor01/) - Open to networking and opportunities in penetration testing or security analysis
+[LinkedIn](https:/ /www.linkedin.com/in/ctaylor01/) - Open to networking and opportunities in penetration testing or security analysis
 
 #Cybersecurity #PenetrationTesting #EthicalHacking #HackTheBox #TryHackMe
